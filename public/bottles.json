@@ -1,0 +1,49 @@
+{
+  "waterBottles": [
+    {
+      "id": 1,
+      "brand": "HydroPlus",
+      "capacity": "1L",
+      "material": "Stainless Steel",
+      "price": 850,
+      "isInsulated": true,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "brand": "AquaFresh",
+      "capacity": "750ml",
+      "material": "Plastic",
+      "price": 350,
+      "isInsulated": false,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "brand": "EcoSip",
+      "capacity": "500ml",
+      "material": "Glass",
+      "price": 600,
+      "isInsulated": false,
+      "inStock": false
+    },
+    {
+      "id": 4,
+      "brand": "ThermoPro",
+      "capacity": "1.5L",
+      "material": "Stainless Steel",
+      "price": 1200,
+      "isInsulated": true,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "brand": "DailyDrink",
+      "capacity": "1L",
+      "material": "Plastic",
+      "price": 450,
+      "isInsulated": false,
+      "inStock": true
+    }
+  ]
+}
