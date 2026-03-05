@@ -3,9 +3,12 @@ import { Suspense } from 'react'
 import './App.css'
 import Bottles from './components/bottles/Bottoles'
 
-const bottlesPromise = fetch('./bottles.json')
-.then(res => res.json());
+// const bottlesPromise = fetch('./bottles.json')
+// .then(res => res.json());
+// const bottlesPromise2 = fetch('https://raw.githubusercontent.com/riadulislam111/Bottles-data/refs/heads/main/bottles.json')
+// .then(res => res.json())
 
+const bottlesPromise = fetch('bottles.json').then(res => res.json());
 
 function App() {
   // const bottles = [
